@@ -1,0 +1,26 @@
+{
+  // プロジェクト名. 必須項目.
+  "name": "movie-container-password-finder",
+  // プロジェクト概要. npmとかで公開するなら書いた方がいいんじゃないでしょーか.
+  "description": "動画コンテナのパスワードを探すよ！",
+  // プロジェクトバージョン. 必須項目.
+  "version": "0.0.1",
+  // まんま. プロジェクトのホームページ.
+  "homepage": "https://9ketsuki.info",
+  // 作者情報. npmで公開する時は必須？
+  "author": {
+    "name": "9ketsuki",
+    "email": "official@9ketsuki.info"
+  },
+  // 最初に読まれるファイル. エントリポイント.
+  "main": "index.js",
+  "engines": {
+    // 依存するnodeのバージョン.
+    "node": ">= 10.x"
+  },
+  // 各種 npm xxx で実行されるスクリプト. testとstartあたりがメジャーなのでそこあたりは書いたほうが良さ気？
+  "scripts": {
+    // npm testで実行される.
+    "start": "node server.js"
+  }
+}
